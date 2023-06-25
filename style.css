@@ -159,7 +159,6 @@ span {
 
 .btn:hover {
   box-shadow: none;
-
 }
 
 .about {
@@ -200,10 +199,11 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2;
 }
 
 .services h2 {
-  margin-bottom: 5rem;
+    margin: 5rem;
 }
 
 .services__container {
