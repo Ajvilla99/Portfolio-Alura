@@ -1,3 +1,11 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact h2 {
     text-align: center;
     margin-bottom: 3rem;

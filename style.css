@@ -15,7 +15,7 @@ body {
   color: var(--text-color);
 }
 
-.menu {
+/* .menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -26,6 +26,10 @@ body {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+} */
+
+span {
+  color: var(--main-color);
 }
 
 /* .menu__logo__icon {
@@ -68,19 +72,16 @@ body {
 
 
 /* Base Home */
-.home {
+/* .home {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   
-}
+} */
 
 /* Span general */
-span {
-  color: var(--main-color);
-}
 
 
 /* .home__content h3 {

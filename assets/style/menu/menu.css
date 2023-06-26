@@ -1,3 +1,16 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
 .menu__logo__icon {
     font-size: 2.5rem;
     display: flex;
@@ -8,30 +21,30 @@
     color: var(--text-color);
     font-weight: 600;
     cursor: default;
-  }
+}
   
-  .menu__list {
+.menu__list {
     list-style-type: none;
     display: flex;
     font-size: 1.9rem;
-  }
+}
   
-  .menu__list__item {
+.menu__list__item {
     color: var(--text-color);
     margin-left: 4rem;
-  }
+}
   
-  .menu__link {
+.menu__link {
     color: var(--text-color);
     transition: .3s;
-  }
+}
   
-  .menu__link:hover, .active {
+.menu__link:hover, .active {
     color: var(--main-color);
-  }
+}
   
-  #menu__icon {
+#menu__icon {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
-  }
+}
