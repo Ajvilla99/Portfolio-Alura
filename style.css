@@ -77,7 +77,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 40%;
 }
 
 .navbar {
@@ -89,6 +89,9 @@ body {
 }
 
 .navbar a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;
