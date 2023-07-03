@@ -1,212 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="assets/img/icon-portfolio.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    
-    <!-- Atomic Design -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
     <link rel="stylesheet" href="reset.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="botones.css">
-    <link rel="stylesheet" href="assets/style/menu/menu.css">
-    <link rel="stylesheet" href="assets/style/home-inicio/home.css">
-    <link rel="stylesheet" href="assets/style/about/about.css">
-    <link rel="stylesheet" href="assets/style/services-sec/services.css">
-    <link rel="stylesheet" href="assets/style/portfolio/portfolio.css">
-    <link rel="stylesheet" href="assets/style/contact/contact.css">
-    <link rel="stylesheet" href="assets/style/footer/footer.css">
-
-    <!-- Box Icon -->
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
     <section class="menu">
-      <header class="menu__header">
-        <div class="menu__logo__icon">
-          <!-- <img src="assets/img/Logo.png" width="100"> -->
-          <h3 class="menu__logo">A<span>V</span></h3>
-        </div>
-      </header>
+        <div menu__container>
+            <div class="menu__top">
+                <p>Hola mucho gusto, bienvenido a mi portafolio | <span> contratame <i class='bx bxs-like bx-tada bx-flip-horizontal' ></i></span></p>
+            </div>
 
-      <i class='bx bx-menu' id="menu-icon"></i>
+            <div class="menu__bot">
+                <div class="menu__left">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
 
-      <nav class="navbar">
-          <ul class="menu__list">
-              <li class="menu__list__item"><a class="menu__link active" href="#home">Home</a></li>
-              <li class="menu__list__item"><a class="menu__link" href="#about">About</a></li>
-              <li class="menu__list__item"><a class="menu__link" href="#services">Services</a></li>
-              <li class="menu__list__item"><a class="menu__link" href="#portfolio">Portfolio</a></li>
-              <li class="menu__list__item"><a class="menu__link" href="#contact">Contact</a></li>
-          </ul>
-      </nav>
-      </section>
-    <!-- home section design -->
-      <section class="home" id="home">
-        <div class="home__content">
-          <div class="home__head">
-            <h3>Hello, It`s Me</h3>
-            <h1>Abrahan Villa</h1>
-            <h3>And I`m a <span>Frontend Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-             Facilis aspernatur facere corporis hic ad, itaque consectetur adipisicing elit.
-             Facilis aspernatur facere corporis hic ad, itaque.</p>
-          </div>
-          <div class="social__media">
-              <a href="#"><i class='bx bxl-facebook' ></i></i></a>
-              <a href="#"><i class='bx bxl-github' ></i></a>
-              <a href="#"><i class='bx bxl-instagram' ></i></a>
-              <a href="#"><i class='bx bxl-linkedin' ></i></a>
-          </div>
-          <a href="#" class="btn">Download CV</a>
-        </div>
+                <div class="menu__mid">
+                    <nav class="navbar">
+                        <a href="#home">inicio</a>
+                        <a href="#about">sobre mi</a>
+                        <a href="#skills">skills hobbies</a>
+                        <a href="#proyect">proyectos</a>
+                        <a href="#contact">contactame</a>
+                    </nav>
+                </div>
 
-        <div class="home__img">
-          <img src="assets/img/HomeCircular-modified.png" class="img-home-social" alt="Foto de perfil" width="550">
+                <div class="menu__right">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+            </div>
         </div>
-      </section>
-    
-    <!-- about section design -->
-      <section class="about" id="about">
+    </section>
+
+    <section class="home" id="home">
+        <div class="home__container">
+
+            <div class="img__person">
+                <img src="assets/img/foto-home.png" alt="">
+            </div>
+
+            <div class="glass__effect">
+
+            </div>
+
+            <div class="home__title">
+                <h1>Desarrollador <span>Front-End</span></h1>
+            </div>
+
+            <div class="home__button">
+                <a href="#about">conoceme</a>
+                <!-- <i class='bx bx-chevrons-down bx-fade-up' ></i> -->
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
         <div class="about__img">
-          <img src="assets/img/imagen-portafolio2.png" alt="" width="600">
+            <img src="assets/img/logo.png" alt="imagen representativa">
+        </div>
+        <div class="about__text">
+            <h1>sobre mi</h1>
+            <p></p>
+            <p></p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolor, labore sint iste eius ratione assumenda. Ea 
+                optio veniam officia, vitae vero tempora obcaecati maiores
+                magnam earum laudantium nam quos quaerat necessitatibus natus 
+                non mollitia atque quisquam, quia corporis consequatur? Natus!
+            </p>
+        </div>
+    </section>
+    <!-- skills section -->
+    <section class="skills" id="skills">
+        <div class="skill__box">
+            <div class="sk__title">
+                <h1>skills</h1>
+            </div>
+            <div class="sk__box__container">
+                <div class="sk__box">
+                    <i class='bx bxl-html5' id="icon_html" ></i>
+                    <p>HTML</p>
+                </div>
+                
+                <div class="sk__box">
+                    <i class='bx bxl-css3' id="icon_css"></i>
+                    <p>CSS</p>
+                </div>
+                
+                <div class="sk__box">
+                    <i class='bx bxl-javascript' id="icon_js"></i>
+                    <p>JavaScript</p>
+                </div>
+                
+                <div class="sk__box">
+                    <i class='bx bxl-react' id="icon_react" ></i>
+                    <p>react</p>
+                </div>      
+            </div>
+            <div class="sk__title sk__title-bot">
+                <h1>hobbies</h1>
+            </div>
+            <div class="hobbies__box">
+                <div class="hobbie__box__single bike">
+                    <h3>Bicicleta</h3>
+                </div>
+
+                <div class="hobbie__box__single soccer">
+                    <h3>futbol</h3>
+                </div>
+
+                <div class="hobbie__box__single game">
+                    <h3>video juegos</h3>
+                </div>
+
+                <div class="hobbie__box__single music">
+                    <h3>escuchar musica</h3>
+                </div>
+
+                <div class="hobbie__box__single sports">
+                    <h3>deporte</h3>
+                </div>
+
+            </div>
         </div>
 
-        <div class="about__content">
-          <h2 class="heading">About <span>Me</span></h2>
-          <h3>Frontend Developer</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorem odio, perferendis 
-            nostrum, enim temporibus sint officiis culpa amet voluptate esse vitae numquam 
-            asperiores minima iure totam porro similique eligendi illum neque dolores at! Excepturi, 
-            obcaecati labore fuga perspiciatis ab molestiae beatae veniam magnam quae iure!</p>
-            <a href="#" class="btn">Read More</a>
-        </div>
-      </section>
+    </section>
 
-      <!-- services section desing -->
-      <section class="services" id="services">
-        <h2 class="heading">Our <span>Services</span></h2>
-
-        <div class="services__container">
-          <div class="services__box">
-            <i class='bx bx-code-alt'></i>
-            <h3>Web Development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Nostrum, rerum debitis hic at ea dolorum illum pariatur doloremque 
-              ipsam corporis.</p>
-              <a href="#" class="btn">Read More</a>
-          </div>
-          <div class="services__box">
-            <i class='bx bxs-paint' ></i>
-            <h3>Graphic Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Nostrum, rerum debitis hic at ea dolorum illum pariatur doloremque 
-              ipsam corporis.</p>
-              <a href="#" class="btn">Read More</a>
-          </div>
-          <div class="services__box">
-            <i class='bx bxl-react bx-rotate-90' ></i>
-            <h3>React</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-              Nostrum, rerum debitis hic at ea dolorum illum pariatur doloremque 
-              ipsam corporis.</p>
-              <a href="#" class="btn">Read More</a>
-          </div>
-        </div>
-      </section>
-
-      <!-- portfolio section design -->
-      <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Proyect</span></h2>
-        
-        <div class="portfolio__container">
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          <div class="portfolio__box">
-            <img src="assets/img/proyect.jpg" alt="">
-            <div class="portfolio__layer">
-              <h4>Web Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</p>
-              <a href="#"><i class='bx bx-link-external'></i></a>
-            </div>
-          </div>
-          
-          </div>
-        </div>
-      </section>
     
-      <!-- contact section design -->
-      <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-          <form action="#">
-            <div class="input__box">
-              <input type="text" placeholder="Full Name">
-              <input type="text" placeholder="Email Address">
-            </div>
-            <div class="input__box">
-              <input type="text" placeholder="Mobile Number">
-              <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input 
-              type="submit" name="" value="Send Message" class="btn" id="">
-          </form>
-      </section>
-
-      <!-- footer design -->  
-      <footer class="footer">
-        <div class="footer__text">
-          <p>Copyright &copy; - 2023 by Abrahan Villa | All Rights Reserved.</p>
-        </div>
-
-        <div class="footer__iconTop">
-          <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
-        </div>
-      </footer>
-
-    <!-- <div id="app"></div> -->
-    <!-- <script type="module" src="/navbar/navbar.js"></script> -->
-    <!-- <script type="module" src="/main.js"></script> -->
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
