@@ -355,6 +355,7 @@ body {
 .slider {
     display: flex;
     overflow: hidden;
+    background-image: cover;
     width: 800px;
     gap: .5rem;
     scroll-behavior: smooth;
@@ -368,6 +369,7 @@ body {
 
 .proyect__menu__bot {
     display: flex;
-    justify-content: center;
     align-items: center;
+    position: relative;
+    top: 16%;
 }

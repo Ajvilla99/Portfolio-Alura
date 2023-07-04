@@ -1,17 +1,14 @@
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const slider = document.querySelector('.slider');
-const prueba = document.querySelector('.box__container-proyect');
-const imagen = document.querySelectorAll('.img_proyect');
+const imagenes = document.querySelectorAll('.img_proyect');
 const fondo = document.getElementById('carta');
-console.log(imagen);
-console.log(fondo);
 
-imagen.forEach(img => {
+imagenes.forEach(img => {
     img.addEventListener('click', (a) => {
         let src = a.target.getAttribute('src')
         fondo.style.backgroundImage = `url(${src})`;
-        console.log(src);
+        fondo.style.backgroundSize = 'cover'
     })
 });
 
