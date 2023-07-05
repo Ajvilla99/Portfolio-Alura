@@ -2,7 +2,7 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const slider = document.querySelector('.slider');
 const imagenes = document.querySelectorAll('.img_proyect');
-const fondo = document.getElementById('carta');
+const fondo = document.getElementById('slider_bg');
 
 imagenes.forEach(img => {
     img.addEventListener('click', (a) => {
