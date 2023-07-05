@@ -435,6 +435,7 @@ body {
     color: var(--bg-color-4);
     font-family: var(--text-font);
     font-size: 18px;
+    font-weight: 500;
     padding: 2%;
     border-radius: 4px;
     transition: .5s ease-out;
