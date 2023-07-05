@@ -13,9 +13,9 @@ imagenes.forEach(img => {
 });
 
 prev.addEventListener('click', () => {
-    slider.scrollLeft -= 230;
+    slider.scrollLeft -= 253;
 })
 
 next.addEventListener('click', () => {
-    slider.scrollLeft += 228;
+    slider.scrollLeft += 252;
 })
