@@ -1,0 +1,13 @@
+:root {
+    --bg-color-0: #191919;
+    --bg-color-1: #a78a60;
+    --bg-color-2: #c39e69;
+    --bg-color-3: #F1EEE9;
+    --bg-color-4: #d5d5d5;
+
+    --bg-menu: #000000;
+
+    --text-font: 'Jost', sans-serif;
+    --text-color: #a6a5a3;
+    --text-span: #a78a60;
+}
