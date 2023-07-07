@@ -1,7 +1,6 @@
 .proyect {
     width: 100%;
     height: 100vh;
-    /* padding: 4rem 0 2rem 0; */
     background-image: url(../../img/bg-gris.jpg);
     display: flex;
     flex-direction: column;
