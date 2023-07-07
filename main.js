@@ -19,3 +19,14 @@ prev.addEventListener('click', () => {
 next.addEventListener('click', () => {
     slider.scrollLeft += 252;
 })
+
+const labelName = document.querySelector('.form__label-name');
+const formName = document.querySelector('.form__name');
+
+formName.addEventListener('click', (a) => {
+    console.log(a);
+})
+
+
+console.log(labelName);
+console.log(formName);
