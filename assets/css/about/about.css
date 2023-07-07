@@ -1,7 +1,7 @@
 .about {
     display: flex;
     align-items: center;
-    background-image: url(/../assets/img/fondo-gris1.jpg);
+    background-image: url(../../img/bg-gris.jpg);
     height: 100vh;
 }
 
