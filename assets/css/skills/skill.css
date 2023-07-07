@@ -27,6 +27,10 @@
     color: var(--bg-color-4);
 }
 
+.sk__title-top {
+    margin-top: 4rem;
+}
+
 .sk__title h1 {
     border-bottom: 2px solid var(--bg-color-1);
 }
@@ -74,7 +78,7 @@
 }
 
 .sk__title-bot {
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .hobbies__box {
