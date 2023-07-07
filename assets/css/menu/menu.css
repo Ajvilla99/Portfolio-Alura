@@ -80,4 +80,9 @@
     text-transform: uppercase;
     font-weight: 400;
     color: var(--text-color);
+    padding: 4px 0;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid var(--bg-color-1);
 }
