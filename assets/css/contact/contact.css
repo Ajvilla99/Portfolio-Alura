@@ -25,10 +25,15 @@
     font-family: var(--text-font);
     text-transform: uppercase;
     transition: .5s ease;
+    transform: translateY(-40px);
 }
 
-.active {
-    transform: translateY(-12px) scale(.7); 
+.form__name:focus + .form__label {
+    transform: translateY(-65px) scale(.7); 
+}
+
+.form__email:focus + .form__label-email {
+    transform: translateY(-65px) scale(.7); 
 }
 
 .form__name, .form__email {
@@ -41,7 +46,6 @@
     font-family: var(--text-font);
     color: var(--bg-color-4);
     font-size: 1em;
-    text-transform: uppercase;
     background: #19191930;
     width: 100%;
     border-radius: 3px;
