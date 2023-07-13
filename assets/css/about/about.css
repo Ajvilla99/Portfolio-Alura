@@ -31,3 +31,32 @@
     font-family: var(--text-font);
     text-align: justify;
 }
+@media (max-width: 1024px) {
+   
+}
+@media (max-width: 400px) {
+    .about {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        padding: 5%;
+    }
+    .about__img {
+        width: 100%;
+    }
+    .about__img img {
+        width: 100%;
+        backdrop-filter: blur(1rem);
+    }
+    .about__text {
+        width: 80%;
+        padding-bottom: 1rem;
+    }
+    .about__text h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+}

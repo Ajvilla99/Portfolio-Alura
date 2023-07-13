@@ -11,3 +11,14 @@
     --text-color: #a6a5a3;
     --text-span: #a78a60;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1024px) {
+   
+}
+@media (max-width: 400px) {
+    
+}

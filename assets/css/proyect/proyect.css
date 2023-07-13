@@ -174,3 +174,12 @@
 .img_proyect-final {
     margin-right: 3%;
 }
+
+@media (max-width: 1024px) {
+   
+}
+@media (max-width: 400px) {
+    .proyect {
+        display: none;
+    }
+}
