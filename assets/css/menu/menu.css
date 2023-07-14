@@ -116,7 +116,7 @@
         font-size: 48px;
         color: var(--bg-color-2);
         position: absolute;
-        left: 88%;
+        left: 84%;
         transition: .5s ease;
     }
 }
