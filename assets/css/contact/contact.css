@@ -26,13 +26,16 @@
     font-family: var(--text-font);
     transition: .5s ease;
     transform: translateY(-50px);
+    text-transform: uppercase;
 }
 
 .form__name:focus + .form__label {
+    opacity: .5;
     transform: translate(-72px, -65px) scale(.5); 
 }
 
 .form__email:focus + .form__label-email {
+    opacity: .5;
     transform: translate(-72px, -65px) scale(.5); 
 }
 

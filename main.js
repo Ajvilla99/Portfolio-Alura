@@ -21,7 +21,6 @@
 // });
 
 const menuMobile = document.querySelector('.menu-mobile');
-console.log(menuMobile.classList);
 menuMobile.addEventListener('click', () => {
     menuMobile.classList.toggle('bx-x')
 })
