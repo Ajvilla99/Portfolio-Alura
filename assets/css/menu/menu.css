@@ -75,7 +75,7 @@
 }
 .navbar a:hover {
     border-bottom: 1px solid var(--bg-color-1);
-    color: var(--bg-color-1);
+    color: var(--bg-color-3);
 }
 @media (max-width: 1024px) {
    
