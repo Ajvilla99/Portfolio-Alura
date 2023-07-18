@@ -63,12 +63,14 @@
             </div>
         </div>
     </section>
+
     <section class="about" id="about">
+        <div class="about__container">
         <div class="about__img">
             <img src="assets/img/logo - home.png" alt="imagen representativa">
         </div>
         <div class="about__text">
-            <h1>sobre mi</h1>
+            <h1>sobre  <span>mi</span></h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Dolor, labore sint iste eius ratione assumenda. Ea 
@@ -76,6 +78,7 @@
                 magnam earum laudantium nam quos quaerat necessitatibus natus 
                 non mollitia atque quisquam, quia corporis consequatur? Natus!
             </p>
+        </div>
         </div>
     </section>
     <!-- skills section -->
@@ -137,14 +140,21 @@
             <h1>proyectos</h1>
         </div>
         <div class="container">
-            <div class="card__proyect">
+            <div class="card__proyect card__default">
                 <div class="card__image">
                     <img src="assets/img/slider1.jpg" alt="">
                 </div>
                 <div class="card__description">
-                    <h3>titulo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi dolor labore atque quaerat itaque iusto, soluta eius consequuntur unde.</p>
-                    <div class="card__button">
+                    <div class="card__head card__head__left">
+                        <h3>titulo</h3>
+                        <div class="card__tecnology">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3' ></i>
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                    </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum? Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel exercitationem.</p>
+                    <div class="card__button card__left">
                         <a class="button__git" href="#">
                             <i class='bx bxl-github'></i>
                         </a>
@@ -154,14 +164,21 @@
                     </div>
                 </div>
             </div>
-            <div class="card__proyect">
+            <div class="card__proyect card__reverse">
                 <div class="card__image">
-                    <img src="assets/img/slider1.jpg" alt="">
+                    <img src="assets/img/proyect1.png" alt="">
                 </div>
-                <div class="card__description">
-                    <h3>titulo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi dolor labore atque quaerat itaque iusto, soluta eius consequuntur unde.</p>
-                    <div class="card__button">
+                <div class="card__description t-right">
+                    <div class="card__head card__head__right">
+                        <h3>titulo</h3>
+                        <div class="card__tecnology">
+                            <i class='bx bxl-html5'></i>
+                            <i class='bx bxl-css3' ></i>
+                            <i class='bx bxl-javascript' ></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum? Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel exercitationem.</p>
+                    <div class="card__button card__right">
                         <a class="button__git" href="#">
                             <i class='bx bxl-github'></i>
                         </a>
@@ -251,6 +268,5 @@
     </footer>
     
     <script src="main.js"></script>
-    
 </body>
 </html>

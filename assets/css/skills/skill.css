@@ -129,7 +129,7 @@
     background: var(--bg-color-4);
 }
 
-.hobbie__box__single a:hover {
+.hobbie__box__single p:hover {
     color: var(--bg-color-0);
 }
 
