@@ -1,11 +1,11 @@
 .proyect {
-    height: 100vh;
     background-image: url(../../img/bg-gris.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding: 5% 0;
 }
 .proyect__title h1 {
     font-size: 60px;
