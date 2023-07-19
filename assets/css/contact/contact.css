@@ -124,6 +124,10 @@
         justify-content: center;
         align-items: center;
     }
+    .form__contact h1 {
+        font-size: 30px;
+        background-color: var(--text-font);
+    }
     .container__form-column {
         width: 80vw;
     }
