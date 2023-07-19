@@ -21,6 +21,13 @@
 // });
 
 const menuMobile = document.querySelector('.menu-mobile');
+const menuNav = document.querySelector('.navbar');
+const menuMid = document.querySelector('.menu__mid');
+
+
 menuMobile.addEventListener('click', () => {
     menuMobile.classList.toggle('bx-x')
+    menuNav.classList.toggle('active')
+    menuMid.classList.toggle('active')
+
 })
