@@ -78,17 +78,24 @@
 .card__button {
     height: 20%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    gap: 2.5rem;
 }
 .card__button a{
     text-decoration: none;
     color: var(--text-color);
     font-size: 40px;
-    margin-left: 5%;
-    
+    transition: .5s ease;
 }
-
+.card__button a:hover {
+    color: var(--bg-color-2);
+}
+.card__left {
+    justify-content: flex-end;
+}
+.card__right {
+    justify-content: flex-start;
+}
 @media (max-width: 1024px) {
    
 }

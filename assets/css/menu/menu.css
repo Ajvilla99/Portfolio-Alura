@@ -96,6 +96,7 @@
         transition: .5s ease;
     }
     .menu__mid nav{
+        width: 100%;
         display: inline-block;
         line-height: 4;
         text-align: center;
@@ -103,8 +104,10 @@
         color: var(--bg-color-0);
     }
     .menu__mid nav a {
+        width: 100%;
         color: var(--bg-color-0);
         font-size: 18px;
+        font-weight: 500;
     }
     .active {
         transform: translateY(0%);
@@ -130,13 +133,11 @@
         z-index: 200;
     }
     .menu__mobile i {
-        color: white;
-        font-size: 48px;
-        color: var(--bg-color-2);
         position: absolute;
         top: 10%;
         left: 84%;
-        transition: .5s ease;
+        font-size: 48px;
         color: var(--bg-color-0);
+        transition: .5s ease;
     }
 }
