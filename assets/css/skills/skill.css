@@ -1,6 +1,5 @@
 .skills {
-    width: 100%;
-    height: 100vh;
+    padding: 5%;
     background: var(--bg-color-0);
     display: flex;
     flex-direction: column;
@@ -138,8 +137,7 @@
 }
 @media (max-width: 450px) {
     .skills{
-        width: 100%;
-        height: 200vh;
+        padding: 2rem 0;
     }
     .sk__box__container {
         width: 100%;
