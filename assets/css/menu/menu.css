@@ -83,13 +83,13 @@
     width: 100%;
    }
    .menu__mid .navbar {
-    gap: 2rem;
+    gap: 2.5rem;
    }
    .menu__mid .navbar a {
     font-size: 18px;
    }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 769px) {
     .menu__top, .menu__bot .menu__left, .menu__bot .menu__right {
         display: none;
     }

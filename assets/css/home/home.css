@@ -53,10 +53,12 @@
   font-size: 32px;
   color: var(--bg-color-2);
 }
-@media (max-width: 1024px) {
-  
+@media screen and (max-width: 1024px) {
+  .home__title {
+    width: 80%;
+  }
 }
-@media (max-width: 450px) {
+@media screen and (max-width: 500px) {
 .home {
   display: flex;
   justify-content: center;

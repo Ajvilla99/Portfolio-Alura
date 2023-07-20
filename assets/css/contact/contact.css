@@ -146,9 +146,11 @@
 
 
 @media (max-width: 1024px) {
-   
+    .container__form-column {
+        width: 90%;
+    }
 }
-@media (max-width: 450px) {
+@media (max-width: 769px) {
     .contact {
         height: 90vh;
         padding: 5rem 0 0 0;
@@ -208,7 +210,7 @@
         position: absolute;
         justify-content: space-around;
         align-items: center;
-        top: 85%;
+        top: 87%;
         margin: 0;
     }
     .form__submit {

@@ -96,8 +96,87 @@
 .card__right {
     justify-content: flex-start;
 }
-@media (max-width: 1024px) {
-   
+@media screen and (max-width: 1024px) {
+    .proyect {
+        display: flex;
+        padding: 2rem 0;
+        width: 100%;
+    }
+    .proyect .container {
+        gap: 3rem;
+    }
+    .proyect .container .card__proyect {
+        width: 90%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .card__proyect .card__image {
+        width: 100%;
+        height: 60%;
+    }
+    .card__proyect .card__image img{
+        width: 100%;
+    }
+    .card__description {
+        padding: 0%;
+        width: 100%;
+        height: 40%;
+    }
+    .card__head {
+        padding: 3%;
+    }
+    .card__description p {
+        padding: 0 3%;
+        height: 45.5%;
+        font-size: 1.3rem;
+        line-height: 1.1;
+    }
+    .card__description .card__head__right{
+        display: flex;
+        flex-direction: row;
+    }
+    .card__head h3 {
+        font-size: 3rem;
+    }
+    .card__button {
+        padding: 0 3%;
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 769px) {
+    .proyect .container {
+        width: 90%;
+    }
+    .proyect .container .card__proyect {
+        width: 95%;
+        height: 700px;
+    }
+    .card__proyect .card__image {
+        width: 100%;
+        height: 50%;
+    }
+    .card__description {
+        padding: 0%;
+        width: 100%;
+        height: 50%;
+    }
+    .card__description p {
+        padding: 0 3%;
+        height: 50%;
+        font-size: 1.3rem;
+        line-height: 1.2rem;
+    }
+    .card__head h3 {
+        font-size: 2rem;
+    }
+    .card__button {
+        display: flex;
+        justify-content: space-around;
+    }
+    .card__button a  {
+        margin: 0;
+    }
 }
 @media screen and (max-width: 500px) {
     .proyect {
@@ -114,7 +193,7 @@
     }
     .proyect .container .card__proyect {
         width: 95%;
-        height: 550px;
+        height: 580px;
         flex-direction: column;
         align-items: center;
     }
@@ -134,7 +213,7 @@
     .card__description {
         padding: 0;
         width: 95%;
-        height: 300px;
+        height: 340px;
     }
     .card__head h3 {
         width: 25%;
@@ -146,7 +225,7 @@
     .card__description p {
         height: 50%;
         font-size: 16px;
-        padding: 5% 5% 0 5%;
+        padding: 0 5%;
     }
     .card__button {
         display: flex;
