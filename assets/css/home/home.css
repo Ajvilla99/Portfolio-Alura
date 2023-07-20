@@ -12,6 +12,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 0 5%;
   gap: 2rem;
 }
 .home__container img {
@@ -56,8 +57,17 @@
 @media screen and (max-width: 1024px) {
   .home__title {
     width: 80%;
+    text-align: center;
   }
 }
+@media screen and (max-width: 800px) {
+  .home__title {
+    width: 80%;
+  }
+  .home__title h1 {
+    font-size: 50px;
+  }
+} 
 @media screen and (max-width: 500px) {
 .home {
   display: flex;
@@ -65,23 +75,30 @@
   align-items: center;
 }
 .home__container {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .home__container .about__img {
-  margin-top: 5rem;
-  width: 80%;
-}
+    margin-top: 5rem;
+    width: 80%;
+  }
 .home__container img {
   width: 300px;
-}
-.home__title {
-  font-size: 30px;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 5rem;
+  }
+  .home__title {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .home__title h1 {
+    font-size: 35px;
+  }
+@media screen and (max-width: 400px) {
+  .home__title h1 {
+    font-size: 30px;
+  }
 }
 }

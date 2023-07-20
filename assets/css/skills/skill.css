@@ -1,5 +1,5 @@
 .skills {
-    padding: 5%;
+    padding: 5% 0;
     background: var(--bg-color-0);
     display: flex;
     flex-direction: column;
@@ -9,7 +9,6 @@
 
 .skill__box {
     width: 80%;
-    height: 100%;
     border-radius: .2rem;
     display: flex;
     flex-direction: column;
@@ -131,9 +130,24 @@
 .hobbie__box__single p:hover {
     color: var(--bg-color-0);
 }
-
+@media (max-width: 1440px) {
+    .hobbies__box {
+        width: 80%;
+    }
+    .hobbie__box__single p {
+        padding: 2%;
+        width: 100%;
+    }
+}
+@media (max-width: 1280px) {
+    .hobbies__box {
+        width: 100%;
+    }
+}
 @media (max-width: 1024px) {
-   
+    .hobbies__box {
+        width: 100%;
+    }
 }
 @media (max-width: 769px) {
     .skills{
