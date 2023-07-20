@@ -82,6 +82,9 @@
    .menu__mid {
     width: 100%;
    }
+   .menu__mid .navbar {
+    gap: 2rem;
+   }
    .menu__mid .navbar a {
     font-size: 18px;
    }
